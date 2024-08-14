@@ -1,6 +1,6 @@
 # Simple WepView
 
-Learn How to Use wepview in ypur flutter application 
+Learn How to Use wepview in your flutter application 
 <br>
 ## widget i used to 
 - just simple ElevatedButton when i click it open Wep view <br>
@@ -19,7 +19,7 @@ Learn How to Use wepview in ypur flutter application
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..loadRequest(Uri.parse('https://flutter.dev'));
   ```
-  don't forgot to put it in StatefulWidget
+  don't forgot to put it in StatefulWidget.
   
 <br>
 
