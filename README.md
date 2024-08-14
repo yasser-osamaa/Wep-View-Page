@@ -1,15 +1,25 @@
-# wep_view
+# Simple WepView
 
-A new Flutter project.
+Learn How to Use wepview in ypur flutter application 
+<br>
+## widget i used to 
+- just simple ElevatedButton when i click it open Wep view <br>
+- WepViewWidget Widget to take controller That Responsible for the appearance of the web view<br>
+  ```
+  WebViewWidget(
+        controller: controller,
+      ),
+  ```
+<br><br>
+## Package i used to 
+- webview_flutter: ^4.8.0 To Download Package in ur Application
+  ```
+  WebViewController controller = WebViewController()
+      ..setJavaScriptMode(JavaScriptMode.unrestricted)
+      ..loadRequest(Uri.parse('https://flutter.dev'));
+  ```
+<br><br>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
